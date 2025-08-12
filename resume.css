@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header Section */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.container section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.project {
+    background-color: #f1f1f1;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #343a40;
+}
+
+.project p {
+    margin: 0.5rem 0;
+}
+
+.project ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project ul li {
+    margin: 0.3rem 0;
+    font-weight: bold;
+}
+
+/* Skills Section */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #343a40;
+    color: white;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #343a40;
+    color: white;
+    margin-top: 2rem;
+    border-top: 4px solid #ddd;
+}
+
+footer p {
+    margin: 0;
+}
